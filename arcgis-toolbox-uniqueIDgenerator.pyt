@@ -77,7 +77,7 @@ class UUIDUpdater(object):
         for row in rows:
             if row.isNull(attribute) or row.getValue(attribute) == " ":
                 uuid_val = str(uuid.uuid4()) 
-            	row.setValue(attribute, uuid_val)
+                row.setValue(attribute, uuid_val)
             rows.updateRow(row)
         return
         
