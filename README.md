@@ -9,4 +9,4 @@ You must have ArcGIS installed in order to use this.  Developed with ArcGIS 10.1
 
 Setup:
 
-In ArcGIS right-click in ArcToolbox window and select "Add Toolbox".  Then navigate to the *.pyt file included in this repository and you will have access to this tool.
+Download all a files locally into the same directory.  In ArcGIS right-click in ArcToolbox window and select "Add Toolbox".  Then navigate to the *.pyt file included in this repository and you will have access to this tool.  The .pyt file must be in the same directory as the .xml files.
