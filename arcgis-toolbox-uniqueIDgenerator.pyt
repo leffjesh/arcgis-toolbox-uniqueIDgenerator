@@ -81,13 +81,3 @@ class UUIDUpdater(object):
             rows.updateRow(row)
         return
         
-if __name__ == '__main__':
-    # This is used for debugging. Using this separated structure makes it much easier to debug using standard Python development tools.
-
-    UUIDUpdater1 = UUIDUpdater()
-    params = UUIDUpdater1.getParameterInfo()
-    params[0].value = 'C:/temp/Export_Output.shp'
-    params[1].value = 'projectID'
-    UUIDUpdater1.execute(params, None)
-
-    print(UUIDUpdater1.label)
